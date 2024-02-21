@@ -1,0 +1,56 @@
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+
+	.dropdown-menu {
+		border: none;
+			background-color: snow;
+		}
+	.dropdown-menu li a {
+		text-align: center;
+	}
+
+	/* Carousel Start */
+
+	.slider .carousel-caption h6 {
+		font-size: 50px;
+		width: 100%;
+	}
+
+	.slider .carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 13px;
+	}
+
+	.carousel-control-prev-icon,
+	.carousel-control-next-icon {
+		width: 15px;
+		margin-top: 1000%;
+	}
+
+	.about-text {
+		padding-bottom: 50px;
+		text-align: center;
+	}
+
+	/* Carousel End */
+	
+    footer {
+        text-align: center;
+    }   
+        table {
+            width: 100%;
+            margin-bottom: 0;
+        }
+
+        .d-flex {
+            flex-wrap: wrap;
+        }
+
+        .d-flex > * {
+            flex: 0 0 100%;
+            margin-bottom: 10px;
+        }
+}

@@ -1,0 +1,172 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Gill Sans', sans-serif;
+}
+body {
+	background-color: rgb(238, 238, 238);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar Start */
+.navbar {
+	background-color: #fff9c3;
+}
+
+.navbar-nav a {
+	text-transform: uppercase;
+	color: #3628af;
+}
+
+
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+    color: #3628af;
+	text-decoration: underline  ;
+}
+
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 15px;
+	line-height: 0.3;
+	background: whitesmoke;
+}
+
+.logo {
+	width: 30%;
+	object-fit: cover;
+	margin-left: 5px;
+}
+
+.content {
+	min-height: 100vh;
+	width: 100%;
+}
+/* Navbar End */
+.year {
+	display: flex;
+	flex-direction: row-reverse;
+}
+.section-padding {
+	padding: 77px 0;
+}
+
+.card {
+	border-radius: 5px;
+	background-color: white;
+	border: none;
+	margin-bottom: 25px;
+}
+/* Carousel Start */
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+
+.slider .carousel-caption {
+	bottom: 200px;
+	z-index: 2;
+}
+
+.carousel-caption h6 {
+	font-size: 90px;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	color: #71f042;
+	text-shadow: 2px 2px #3628af;
+}
+
+.carousel-caption p {
+	width: 80%;
+	margin: auto;
+	font-size: 20px;
+	line-height: 1.9;
+}
+
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+/* Carousel End */
+
+.read-more-btn{
+    color: #0984e3;
+}
+
+.read-more-text{
+    display: none;
+}
+
+.read-more-text--show{
+    display: inline;
+}
+.dropdown-menu {
+	border: none;
+	background-color: snow;
+	scroll-behavior: smooth;
+}
+h1, h4	 {
+ color: #3628af;
+}
+
+table, th, td {
+	border: 1px solid rgb(224, 224, 224);
+}
+
+.image-container {
+	position: relative;
+	overflow: hidden;
+}
+
+.image-container img {
+	transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover img {
+	transform: scale(1.1);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Start */
+footer {
+	background-color: #f1943c;
+	color: white;
+}
+
+.menu:hover {
+	font-size: 16.5px;
+}
+.single-box p {
+	line-height: 1.9;
+}
+
+.single-box ul li a {
+	line-height: 2;
+	font-weight: 100;
+}
+
+.single-box h2 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.socials .fa {
+	font-size: 20px;
+	margin: 7px 20px 0 0;
+}
+
+.socials .fa:hover {
+	font-size: 20px;
+	scale: 1.2;
+}
+/* Footer End */
